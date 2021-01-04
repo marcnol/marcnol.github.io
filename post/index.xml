@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Nollmann Lab website</title>
+    <link>http://marcnol.github.io/post/</link>
+    <description>Recent content in Posts on Nollmann Lab website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 04 Jan 2021 17:05:30 +0100</lastBuildDate><atom:link href="http://marcnol.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Organization</title>
+      <link>http://marcnol.github.io/post/organization/</link>
+      <pubDate>Mon, 04 Jan 2021 17:05:30 +0100</pubDate>
+      
+      <guid>http://marcnol.github.io/post/organization/</guid>
+      <description>-80°C organisation This website describes how to organize contents of a -80 rack
+direct link</description>
+    </item>
+    
+  </channel>
+</rss>

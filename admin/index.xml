@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Admins on Nollmann Lab website</title>
+    <link>http://marcnol.github.io/admin/</link>
+    <description>Recent content in Admins on Nollmann Lab website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 04 Jan 2021 17:05:30 +0100</lastBuildDate><atom:link href="http://marcnol.github.io/admin/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bookings</title>
+      <link>http://marcnol.github.io/admin/bookings/</link>
+      <pubDate>Mon, 04 Jan 2021 17:05:30 +0100</pubDate>
+      
+      <guid>http://marcnol.github.io/admin/bookings/</guid>
+      <description>Plannings Bookings </description>
+    </item>
+    
+    <item>
+      <title>Calendars</title>
+      <link>http://marcnol.github.io/admin/calendars/</link>
+      <pubDate>Mon, 04 Jan 2021 17:05:30 +0100</pubDate>
+      
+      <guid>http://marcnol.github.io/admin/calendars/</guid>
+      <description>Calendars </description>
+    </item>
+    
+    <item>
+      <title>INSERM Calendar</title>
+      <link>http://marcnol.github.io/admin/calendars_inserm/</link>
+      <pubDate>Mon, 04 Jan 2021 17:05:30 +0100</pubDate>
+      
+      <guid>http://marcnol.github.io/admin/calendars_inserm/</guid>
+      <description>Calendars Go to the site :
+//webmail.inserm.fr/cal/index.html#?refresh=1568626616955 
+On the calendar, select the desired time slot and click on edit details:
+At the top right, indicate the name of the room and then give a title to the reservation (Group meeting for example).
+In the top right corner, remember to indicate the room&amp;rsquo;s reference so that the reservation appears in the room&amp;rsquo;s calendar:
+Enter &amp;ldquo;res-318@&amp;rdquo; or the name of the room to find it:</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Informatics on Nollmann Lab website</title>
+    <link>http://marcnol.github.io/informatics/</link>
+    <description>Recent content in Informatics on Nollmann Lab website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 04 Jan 2021 17:05:30 +0100</lastBuildDate><atom:link href="http://marcnol.github.io/informatics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git Server</title>
+      <link>http://marcnol.github.io/informatics/gitserver/</link>
+      <pubDate>Mon, 04 Jan 2021 17:05:30 +0100</pubDate>
+      
+      <guid>http://marcnol.github.io/informatics/gitserver/</guid>
+      <description>Install git server On the server side Install git:
+sudo apt-get install git-core sudo useradd git passwd git and enter the desired password.
+To get SSH keys, you run this in the local machine
+ssh-keygen -t rsa cat ~/.ssh/id_rsa.pub | ssh git@grey &amp;#34;mkdir -p ~/.ssh &amp;amp;&amp;amp; cat &amp;gt;&amp;gt; ~/.ssh/authorized_keys&amp;#34; Need to run to create repository
+mkdir /home/git/Repositories/newrepo git init --bare On the local machine The first time you run this:</description>
+    </item>
+    
+    <item>
+      <title>HiGlass</title>
+      <link>http://marcnol.github.io/informatics/higlass/</link>
+      <pubDate>Mon, 04 Jan 2021 17:05:30 +0100</pubDate>
+      
+      <guid>http://marcnol.github.io/informatics/higlass/</guid>
+      <description>You can see HiGlass in action at higlass.io.
+It is also easy to launch your own. Install Docker, and then:
+docker pull higlass/higlass-docker # Ensure that you have the latest. docker run --detach \ --publish 8888:80 \ --volume ~/hg-data:/data \ --volume ~/hg-tmp:/tmp \ --name higlass-container \ higlass/higlass-docker The two --volume options are necessary to prevent the files you upload from consuming all of relatively small space allocated for the root volume.</description>
+    </item>
+    
+    <item>
+      <title>Install a gdrive</title>
+      <link>http://marcnol.github.io/informatics/mounting_gdrive_linux/</link>
+      <pubDate>Mon, 04 Jan 2021 17:05:30 +0100</pubDate>
+      
+      <guid>http://marcnol.github.io/informatics/mounting_gdrive_linux/</guid>
+      <description>Installing Google Drive Ocamlfuse on Ubuntu 18.04 [TOC]
+To install the Google Drive Ocamlfuse run the following commands in that order
+$ sudo add-apt-repository ppa:alessandro-strada/ppa $ sudo apt-get update $ sudo apt-get install google-drive-ocamlfuse Once successfully installed, authorize google-drive-ocamlfuse client with your desired Google account using the following command.
+# google-drive-ocamlfuse This is going to pop open a page on your browser where Google will request you to choose a Gmail account to continue with the setup</description>
+    </item>
+    
+    <item>
+      <title>manjaro</title>
+      <link>http://marcnol.github.io/informatics/appinstallmanjaro/</link>
+      <pubDate>Mon, 04 Jan 2021 17:05:30 +0100</pubDate>
+      
+      <guid>http://marcnol.github.io/informatics/appinstallmanjaro/</guid>
+      <description>Installation instructions MANJARO latest version: Aug31 2020
+Compilation of AUR repositories sudo pacman -S base-devel then run makepkg -si
+Applications gitkraken cd /home/marcnol/Downloads wget https://release.gitkraken.com/linux/gitkraken-amd64.tar.gz sudo tar -xvzf gitkraken-amd64.tar.gz mv gitkraken /usr/local/ ln -s /usr/local/gitkraken/gitkraken gitkraken typora binary wget https://typora.io/linux/Typora-linux-x64.tar.gz tar xzvf Typora-linux-x64.tar.gz mv Typora-linux-x64.tar.gz /usr/local/bin ln -s /usr/local/typora/Typora-linux-x64/Typora /usr/local/bin/typora anaconda cd /home/marcnol/Downloads wget https://repo.anaconda.com/archive/Anaconda3-2020.02-Linux-x86_64.sh bash ~/Downloads/Anaconda3-2020.02-Linux-x86_64.sh tilix pacman -S tilix insync 1 cd ~/Downloads git clone https://aur.archlinux.org/insync.git cd insync makepkg -si insync2 sudo pacman -S base-devel git clone https://aur.</description>
+    </item>
+    
+    <item>
+      <title>Mount dropbox</title>
+      <link>http://marcnol.github.io/informatics/mounting_dropbox_linux/</link>
+      <pubDate>Mon, 04 Jan 2021 17:05:30 +0100</pubDate>
+      
+      <guid>http://marcnol.github.io/informatics/mounting_dropbox_linux/</guid>
+      <description>Mounting Dropbox in Linux Installing dbxfs The dbxfs officially supports Linux and Mac OS. However, it should work on any POSIX system that provides a FUSE-compatible library or has the ability to mount SMB shares. Since it is written for Python 3.5, it can installed using pip3 package manager. Refer the following guide if you haven’t installed PIP yet.
+ How To Manage Python Packages Using Pip  And, install FUSE library as well.</description>
+    </item>
+    
+    <item>
+      <title>Reveal.js</title>
+      <link>http://marcnol.github.io/informatics/reveal.js-presentations/</link>
+      <pubDate>Mon, 04 Jan 2021 17:05:30 +0100</pubDate>
+      
+      <guid>http://marcnol.github.io/informatics/reveal.js-presentations/</guid>
+      <description>Reveal.js presentations [TOC]
+Reveal.js and pandoc Create a MD presentation. For instance:
+--- title: Chromosome architecture by Hi-M author: Marcelo Nollmann, CNRS, France. date: June 21, 2017 output: revealjs::revealjs_presentation: fig_width: 7 fig_height: 6 theme: black --- ## What is DNA? &amp;gt; &amp;lt;small&amp;gt;DNA is long , c.a. 1m&amp;lt;/small&amp;gt; &amp;gt; &amp;lt;small&amp;gt;DNA has to be fit into a tiny nucleus ~few micrometers in size&amp;lt;/small&amp;gt; &amp;gt; &amp;lt;small&amp;gt;Despite this, we have known that -at least in some cell cycle stages like mitosis- chromosomes are highly organized&amp;lt;/small&amp;gt;  &amp;lt;img src=&amp;#34;/home/marcnol/dropbox/Documents/Bureaucracy/mixNpick/signature.</description>
+    </item>
+    
+    <item>
+      <title>Setup a linux box</title>
+      <link>http://marcnol.github.io/informatics/linux_setup_latest/</link>
+      <pubDate>Mon, 04 Jan 2021 17:05:30 +0100</pubDate>
+      
+      <guid>http://marcnol.github.io/informatics/linux_setup_latest/</guid>
+      <description>Linux post installation guide [[TOC]]
+Mounting external drives Google drive Run the following installation steps
+$ sudo add-apt-repository ppa:alessandro-strada/ppa $ sudo apt-get update $ sudo apt-get install google-drive-ocamlfuse Once successfully installed, authorize google-drive-ocamlfuse client with your desired Google account using the following command.
+$ google-drive-ocamlfuse This is going to pop open a page on your browser where Google will request you to choose a Gmail account to continue with the setup</description>
+    </item>
+    
+  </channel>
+</rss>

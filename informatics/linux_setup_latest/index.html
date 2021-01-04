@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Setup a linux box | Nollmann Lab website</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Linux post installation guide [[TOC]]
+Mounting external drives Google drive Run the following installation steps
+$ sudo add-apt-repository ppa:alessandro-strada/ppa $ sudo apt-get update $ sudo apt-get install google-drive-ocamlfuse Once successfully installed, authorize google-drive-ocamlfuse client with your desired Google account using the following command.
+$ google-drive-ocamlfuse This is going to pop open a page on your browser where Google will request you to choose a Gmail account to continue with the setup">
+    <meta name="generator" content="Hugo 0.79.0" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.4fc0b62e4b82c997bb0041217cd6b979.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+
+    
+
+    
+    
+    <meta property="og:title" content="Setup a linux box" />
+<meta property="og:description" content="Linux post installation guide [[TOC]]
+Mounting external drives Google drive Run the following installation steps
+$ sudo add-apt-repository ppa:alessandro-strada/ppa $ sudo apt-get update $ sudo apt-get install google-drive-ocamlfuse Once successfully installed, authorize google-drive-ocamlfuse client with your desired Google account using the following command.
+$ google-drive-ocamlfuse This is going to pop open a page on your browser where Google will request you to choose a Gmail account to continue with the setup" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://marcnol.github.io/informatics/linux_setup_latest/" />
+<meta property="article:published_time" content="2021-01-04T17:05:30+01:00" />
+<meta property="article:modified_time" content="2021-01-04T17:05:30+01:00" />
+<meta itemprop="name" content="Setup a linux box">
+<meta itemprop="description" content="Linux post installation guide [[TOC]]
+Mounting external drives Google drive Run the following installation steps
+$ sudo add-apt-repository ppa:alessandro-strada/ppa $ sudo apt-get update $ sudo apt-get install google-drive-ocamlfuse Once successfully installed, authorize google-drive-ocamlfuse client with your desired Google account using the following command.
+$ google-drive-ocamlfuse This is going to pop open a page on your browser where Google will request you to choose a Gmail account to continue with the setup">
+<meta itemprop="datePublished" content="2021-01-04T17:05:30+01:00" />
+<meta itemprop="dateModified" content="2021-01-04T17:05:30+01:00" />
+<meta itemprop="wordCount" content="911">
+
+
+
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Setup a linux box"/>
+<meta name="twitter:description" content="Linux post installation guide [[TOC]]
+Mounting external drives Google drive Run the following installation steps
+$ sudo add-apt-repository ppa:alessandro-strada/ppa $ sudo apt-get update $ sudo apt-get install google-drive-ocamlfuse Once successfully installed, authorize google-drive-ocamlfuse client with your desired Google account using the following command.
+$ google-drive-ocamlfuse This is going to pop open a page on your browser where Google will request you to choose a Gmail account to continue with the setup"/>
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        Nollmann Lab website
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/admin/" title="Admins page">
+              Admins
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/informatics/" title="Informatics page">
+              Informatics
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/organization/" title="Organizations page">
+              Organizations
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/post/" title="Posts page">
+              Posts
+            </a>
+          </li>
+          
+        </ul>
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked">
+          
+        INFORMATICS
+      </aside>
+      
+
+
+
+
+  <div id="sharing" class="mt3">
+
+    
+    <a href="https://www.facebook.com/sharer.php?u=http://marcnol.github.io/informatics/linux_setup_latest/" class="facebook no-underline" aria-label="share on Facebook">
+      <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M28.765,50.32h6.744V33.998h4.499l0.596-5.624h-5.095  l0.007-2.816c0-1.466,0.14-2.253,2.244-2.253h2.812V17.68h-4.5c-5.405,0-7.307,2.729-7.307,7.317v3.377h-3.369v5.625h3.369V50.32z   M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;"/></svg>
+
+    </a>
+
+    
+    
+    <a href="https://twitter.com/share?url=http://marcnol.github.io/informatics/linux_setup_latest/&amp;text=Setup%20a%20linux%20box" class="twitter no-underline" aria-label="share on Twitter">
+      <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/></svg>
+
+    </a>
+
+    
+    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://marcnol.github.io/informatics/linux_setup_latest/&amp;title=Setup%20a%20linux%20box" class="linkedin no-underline" aria-label="share on LinkedIn">
+      <svg  height="32px"  style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+
+    </a>
+  </div>
+
+
+      <h1 class="f1 athelas mt3 mb1">Setup a linux box</h1>
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2021-01-04T17:05:30+01:00">January 4, 2021</time>
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><h1 id="linux-post-installation-guide">Linux post installation guide</h1>
+<p>[[TOC]]</p>
+<h2 id="mounting-external-drives">Mounting external drives</h2>
+<h3 id="google-drive">Google drive</h3>
+<p>Run the following installation steps</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ sudo add-apt-repository ppa:alessandro-strada/ppa
+$ sudo apt-get update
+$ sudo apt-get install google-drive-ocamlfuse
+</code></pre></div><p>Once successfully installed, authorize google-drive-ocamlfuse client with your desired Google account using the following command.</p>
+<pre><code class="language-sg" data-lang="sg">$ google-drive-ocamlfuse
+</code></pre><p>This is going to pop open a page on your browser where Google will request you to choose a Gmail  account to continue with the setup</p>
+<p>Finally, create a mount point in your home directory and mount the directory</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ mkdir ~/google-drive
+$ google-drive-ocamlfuse ~/google-drive
+</code></pre></div><p>For a full description with pictures <a href="./Mounting_Gdrive_Linux.html">click here</a></p>
+<h3 id="dropbox-drive">Dropbox drive</h3>
+<p>To install the Dropbox Drive <a href="./Mounting_dropbox_Linux.html">click here</a></p>
+<h3 id="mounting-disks">mounting disks</h3>
+<p>Edit the /etc/ftab file as root. Add the following lines</p>
+<pre><code>192.168.6.64:/Public    /mnt/nfs_6_64           nfs     vers=3,defaults 0 0
+192.168.8.7:/Public     /mnt/nfs_8_7            nfs     vers=3,defaults 0 0
+192.168.6.15:/PALM      /mnt/PALM_dataserv      nfs     vers=3,noatime,nodiratime,noacl,nocto,bg 0 0
+192.168.8.9:/Public    /mnt/nfs_8_9             nfs     defaults 0 0
+192.168.8.60:/data/tronador     /mnt/tronador   nfs defaults    0 0
+192.168.6.30:/GREY     /mnt/grey   nfs defaults    0 0
+192.168.8.12:/GLACIER/disk1    /mnt/GLACIER_disk1   nfs defaults 0 0
+192.168.8.12:/GLACIER/disk3    /mnt/GLACIER_disk3   nfs defaults 0 0
+192.168.6.173:/DataVolume/Public /mnt/nfs_WD    nfs     vers=3,defaults 0 0
+</code></pre><p>then run</p>
+<pre><code>mkdir /mnt/nfs_6_64 /mnt/nfs_8_7 /mnt/PALM_dataserv /mnt/nfs_8_9  
+chmod 777 /mnt/nfs_6_64 /mnt/nfs_8_7 /mnt/PALM_dataserv /mnt/nfs_8_9  /mnt/GLACIER_disk3  /mnt/GLACIER_disk1
+
+mkdir /mnt/GLACIER_disk4 /mnt/tronador /mnt/grey /mnt/GLACIER_disk1  /mnt/GLACIER_disk3
+chmod 777 /mnt/GLACIER_disk1 /mnt/tronador /mnt/grey
+</code></pre><p>then you can mount any drive by its name in the /etc/fstab file or its directory mountpoint. For instance:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">mount /mnt/grey
+</code></pre></div><h2 id="other-configurations">Other configurations</h2>
+<h3 id="setting-up-login-with-a-public-key">Setting up login with a public key</h3>
+<p>in client do:</p>
+<pre><code>&gt; ssh-keygen
+</code></pre><p>enter for passphrase</p>
+<pre><code>cat ~/.ssh/id_rsa.pub | ssh marcnol@krakatoa &quot;mkdir -p ~/.ssh &amp;&amp; cat &gt;&gt; ~/.ssh/authorized_keys&quot;
+</code></pre><p>done!</p>
+<p>If for some reason, you still need to enter a password after setting up RSA then it may be because your .ssd directory in the server side has permissions that your ssh does not like.</p>
+<p>To check this do:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">tail /var/log/auth.log
+</code></pre></div><p>and you may see something like:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">Sep <span style="color:#ae81ff">24</span> 13:02:17 krakatoa sshd<span style="color:#f92672">[</span>122249<span style="color:#f92672">]</span>: Authentication refused: bad ownership or modes <span style="color:#66d9ef">for</span> file /home/marcnol/.ssh/authorized_keys
+</code></pre></div><p>To solve it do:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">chmod <span style="color:#ae81ff">700</span> -R ~/.ssh
+</code></pre></div><h3 id="use-crontab-to-automate-services">Use crontab to automate services</h3>
+<p>This example will show how to run a script <code>rsync_home.sh</code> at 22:00 every day. Start by running:</p>
+<pre><code>crontab -e
+</code></pre><p>and add</p>
+<pre><code>0 22 * * * runuser -l marcnol -c '/home/marcnol/sysadm/rsync_home.sh'
+</code></pre><p>then run</p>
+<pre><code>mkdir /home/marcnol/sysadm
+</code></pre><p>create /home/marcnol/sysadm/rsync_home.sh and add:</p>
+<pre><code>date &gt;&gt; /home/marcnol/sysadm/last_backup.log
+rsync -avz --delete /home/marcnol /mnt/PALM_dataserv/DATA/BCKUSER &gt; /home/marcnol/sysadm/rsync_home.log
+</code></pre><h2 id="setup-of-linux-boxes">Setup of linux boxes</h2>
+<h4 id="creating-group-cbs-and-changing-userid-for-users">creating group cbs and changing userid for users</h4>
+<p>do</p>
+<pre><code>vi /etc/group
+cbs:x:1000:marcnol
+</code></pre><p>then for marcnol do:</p>
+<pre><code>vi /etc/passwd
+marcnol:x:2503:1000:Marcelo Nollmann:/home/marcnol:/bin/tcsh
+</code></pre><p>for other users just modify the userID from the list below.</p>
+<h4 id="adding-new-users">adding new users</h4>
+<pre><code>useradd cardozo --uid 2648 --home /home/cardozo --create-home --groups users --gid 1000
+useradd cattoni --uid 2530 --home /home/cattoni --create-home --groups users --gid 1000
+useradd fiche --uid 2520 --home /home/fiche --create-home --groups users --gid 1000
+useradd bonomi --uid 2701 --home /home/bonomi --create-home --groups users --gid 1000
+useradd guilhas --uid 2632 --home /home/guilhas --create-home --groups users --gid 1000
+useradd gurgo --uid 2707 --home /home/gurgo --create-home --groups users --gid 1000
+useradd berard --uid 2706 --home /home/berard --create-home --groups users --gid 1000
+useradd legall --uid 2539 --home /home/legall --create-home --groups users --gid 1000
+useradd rombouts --uid 2710 --home /home/rombouts --create-home --groups users --gid 1000
+useradd rata --uid 1002 --home /home/rata --create-home --groups users --gid 1000
+useradd sergio --uid 2724 --home /home/sergio --create-home --groups users --gid 1000
+useradd messina --uid 2719 --home /home/messina --create-home --groups users --gid 1000
+useradd markus --uid 2730 --home /home/markus --create-home --groups users --gid 1000
+useradd christophe --uid 2672 --home /home/christophe --create-home --groups users --gid 1000
+useradd bardou --uid 2787 --home /home/bardou --create-home --groups users --gid 1000
+useradd frandi --uid 2766 --home /home/frandi --create-home --groups users --gid 1000
+
+
+</code></pre><p>To change uid of a user:</p>
+<pre><code>usermode -u 1002 rata
+chown rata:users -R /home/rata
+</code></pre><h4 id="creating-sysadm-and-giving-root-privileges">Creating sysadm and giving root privileges</h4>
+<pre><code>useradd sysadm --uid 1001 --home /home/sysadm --create-home --groups root --gid 0
+visudo
+</code></pre><p>add &lt; sysadm ALL=(ALL) ALL &gt; to the &ldquo;User privilege specification&rdquo; section</p>
+<p>Find the entry for %wheel. This is the wheel group. The &lsquo;%&rsquo; tells sudo to match vs a # group name in /etc/groups. Uncomment the line so it looks like:</p>
+<pre><code>%wheel        ALL=(ALL)       ALL
+</code></pre><p>Save and exit with :wq (not necessary when using gedit or kate)
+Add the desired username to the wheel group.The new group is effective for given user #after new login.</p>
+<pre><code>/usr/sbin/usermod -G wheel sysadm
+</code></pre><p>Edit the sudoers file again. This time remove the ability for every user to run sudo. #Comment out these lines, save and exit.</p>
+<pre><code>#Defaults targetpw    # ask for the password of the target user i.e. root
+#ALL ALL=(ALL) ALL # WARNING! Only use this together with 'Defaults targetpw'!
+</code></pre><h4 id="changing-permissions-to-files-in-palm_dataserv">changing permissions to files in PALM_dataserv</h4>
+<p>chown -R 10XX:1000  /home/user
+chown -R 10XX:1000  /data</p>
+<p>chown -R 2701:1000 /home/hernan
+chown -R 2648:1000 /home/cardozo</p>
+<h4 id="activation-compte-root-pour-faire---su">Activation compte root (pour faire  &gt; su)</h4>
+<pre><code> &gt; sudo passwd root
+</code></pre><h2 id="network">network</h2>
+<h4 id="network-configuration-in-ubuntu">network configuration in ubuntu</h4>
+<p>do</p>
+<pre><code>&gt; vi /etc/network/interfaces :
+</code></pre><p>then modify as follows:</p>
+<pre><code>auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+address 192.168.6.13
+netmask 255.255.255.0
+gateway 192.168.6.1
+dns-nameservers 192.168.2.10 192.168.1.10
+dns-search intranet.fr
+</code></pre><p>the run</p>
+<pre><code>&gt; vi /etc/resolv.conf :
+</code></pre><p>and modify as follows:</p>
+<pre><code>nameserver  192.168.2.10
+nameserver  192.168.1.10
+search intranet.fr
+</code></pre><h4 id="activation-sshd">Activation sshd</h4>
+<pre><code>&gt; apt-get install ssh
+</code></pre><p>puis, ajout dans /etc/rc.local :</p>
+<pre><code>if [ ! -d /var/run/sshd ]; then
+   mkdir /var/run/sshd
+   chmod 0755 /var/run/sshd
+fi
+/usr/sbin/sshd
+exit 0
+</code></pre><h4 id="nfs-pour-disque-centraux-des-comptes-utilisateurs-mais-ca-peut-être-aussi--afm-fluo-palm-">NFS (pour disque centraux des comptes utilisateurs (mais ca peut être aussi : AFM, FLUO, PALM &hellip;.)</h4>
+<pre><code>&gt; vi /etc/fstab 
+# CBS
+192.168.2.6:/CMPT /CMPT nfs vers=3,bg 0 0
+192.168.2.11:/CMPT2 /CMPT2 nfs vers=3,bg 0 0
+</code></pre><h4 id="csh-necessaire-pour-certains-comptes-">CSH (necessaire pour certains comptes )</h4>
+<pre><code>&gt;apt-get install csh
+&gt;apt-get install tcsh
+&gt;unlink /bin/csh; ln -s /bin/tcsh /bin/csh
+</code></pre><ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://marcnol.github.io/" >
+    &copy;  Nollmann Lab website 2021 
+  </a>
+    <div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+  </div>
+</footer>
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>
