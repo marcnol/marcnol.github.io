@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Nollmann Lab website</title>
+    <title>NollmannLab helpdesk</title>
     <link>http://marcnol.github.io/</link>
-    <description>Recent content on Nollmann Lab website</description>
+    <description>Recent content on NollmannLab helpdesk</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 04 Jan 2021 17:05:30 +0100</lastBuildDate><atom:link href="http://marcnol.github.io/index.xml" rel="self" type="application/rss+xml" />
