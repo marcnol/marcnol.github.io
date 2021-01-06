@@ -87,5 +87,14 @@ $ sudo add-apt-repository ppa:alessandro-strada/ppa $ sudo apt-get update $ sudo
 $ google-drive-ocamlfuse This is going to pop open a page on your browser where Google will request you to choose a Gmail account to continue with the setup</description>
     </item>
     
+    <item>
+      <title>Signing a custom kernel</title>
+      <link>http://marcnol.github.io/informatics/sigining_kernel/</link>
+      <pubDate>Mon, 04 Jan 2021 17:05:30 +0100</pubDate>
+      
+      <guid>http://marcnol.github.io/informatics/sigining_kernel/</guid>
+      <description>Signing a custom kernel for Secure Boot Instructions are for ubuntu, but should work similar for other distros, if they are using shim and grub as bootloader. If your distro is not using shim (e.g. Linux Foundation Preloader), there should be similar steps to complete the signing (e.g. HashTool instead of MokUtil for LF Preloader) or you can install shim to use instead. The ubuntu package for shim is called shim-signed, but please inform yourself on how to install it correctly, so you do not mess up your bootloader.</description>
+    </item>
+    
   </channel>
 </rss>
