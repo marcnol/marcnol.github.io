@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Informatics on NollmannLab helpdesk</title>
-    <link>http://marcnol.github.io/informatics/</link>
+    <link>http://marcnol.github.io/categories/informatics/</link>
     <description>Recent content in Informatics on NollmannLab helpdesk</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 04 Jan 2021 17:05:30 +0100</lastBuildDate><atom:link href="http://marcnol.github.io/informatics/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 04 Jan 2021 17:05:30 +0100</lastBuildDate><atom:link href="http://marcnol.github.io/categories/informatics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>IPs</title>
       <link>http://marcnol.github.io/informatics/ips/</link>

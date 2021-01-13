@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ManjaroInstall on NollmannLab helpdesk</title>
+    <link>http://marcnol.github.io/tags/manjaroinstall/</link>
+    <description>Recent content in ManjaroInstall on NollmannLab helpdesk</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 04 Jan 2021 17:05:30 +0100</lastBuildDate><atom:link href="http://marcnol.github.io/tags/manjaroinstall/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Setup manjaro box</title>
+      <link>http://marcnol.github.io/informatics/appinstallmanjaro/</link>
+      <pubDate>Mon, 04 Jan 2021 17:05:30 +0100</pubDate>
+      
+      <guid>http://marcnol.github.io/informatics/appinstallmanjaro/</guid>
+      <description>Installation instructions MANJARO latest version: Jan13 2021
+Compilation of AUR repositories sudo pacman -S base-devel then run makepkg -si
+Applications gitkraken cd /home/marcnol/Downloads wget https://release.gitkraken.com/linux/gitkraken-amd64.tar.gz sudo tar -xvzf gitkraken-amd64.tar.gz mv gitkraken /usr/local/ ln -s /usr/local/gitkraken/gitkraken gitkraken typora binary wget https://typora.io/linux/Typora-linux-x64.tar.gz tar xzvf Typora-linux-x64.tar.gz mv Typora-linux-x64.tar.gz /usr/local/bin ln -s /usr/local/typora/Typora-linux-x64/Typora /usr/local/bin/typora anaconda cd /home/marcnol/Downloads wget https://repo.anaconda.com/archive/Anaconda3-2020.02-Linux-x86_64.sh bash ~/Downloads/Anaconda3-2020.02-Linux-x86_64.sh tilix pacman -S tilix insync 1 cd ~/Downloads git clone https://aur.archlinux.org/insync.git cd insync makepkg -si insync2 sudo pacman -S base-devel git clone https://aur.</description>
+    </item>
+    
+  </channel>
+</rss>

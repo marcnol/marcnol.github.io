@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LinuxInstall on NollmannLab helpdesk</title>
+    <link>http://marcnol.github.io/tags/linuxinstall/</link>
+    <description>Recent content in LinuxInstall on NollmannLab helpdesk</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Jan 2020 17:05:30 +0100</lastBuildDate><atom:link href="http://marcnol.github.io/tags/linuxinstall/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Setup a linux box</title>
+      <link>http://marcnol.github.io/informatics/linux_setup_latest/</link>
+      <pubDate>Wed, 01 Jan 2020 17:05:30 +0100</pubDate>
+      
+      <guid>http://marcnol.github.io/informatics/linux_setup_latest/</guid>
+      <description>Linux post installation guide [[TOC]]
+Mounting external drives Google drive Run the following installation steps
+$ sudo add-apt-repository ppa:alessandro-strada/ppa $ sudo apt-get update $ sudo apt-get install google-drive-ocamlfuse Once successfully installed, authorize google-drive-ocamlfuse client with your desired Google account using the following command.
+$ google-drive-ocamlfuse This is going to pop open a page on your browser where Google will request you to choose a Gmail account to continue with the setup</description>
+    </item>
+    
+  </channel>
+</rss>

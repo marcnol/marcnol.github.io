@@ -23,17 +23,17 @@
   </url>
   
   <url>
+    <loc>http://marcnol.github.io/categories/</loc>
+    <lastmod>2021-01-04T17:05:30+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://marcnol.github.io/organization/filters/</loc>
     <lastmod>2021-01-04T17:05:30+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://marcnol.github.io/informatics/gitserver/</loc>
-    <lastmod>2021-01-04T17:05:30+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://marcnol.github.io/informatics/higlass/</loc>
+    <loc>http://marcnol.github.io/categories/informatics/</loc>
     <lastmod>2021-01-04T17:05:30+01:00</lastmod>
   </url>
   
@@ -48,12 +48,22 @@
   </url>
   
   <url>
-    <loc>http://marcnol.github.io/informatics/mounting_gdrive_linux/</loc>
+    <loc>http://marcnol.github.io/tags/ips/</loc>
     <lastmod>2021-01-04T17:05:30+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://marcnol.github.io/informatics/appinstallmanjaro/</loc>
+    <loc>http://marcnol.github.io/informatics/ips/</loc>
+    <lastmod>2021-01-04T17:05:30+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcnol.github.io/tags/manjaroinstall/</loc>
+    <lastmod>2021-01-04T17:05:30+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcnol.github.io/informatics/mounting_gdrive_linux/</loc>
     <lastmod>2021-01-04T17:05:30+01:00</lastmod>
   </url>
   
@@ -88,21 +98,23 @@
   </url>
   
   <url>
-    <loc>http://marcnol.github.io/informatics/linux_setup_latest/</loc>
+    <loc>http://marcnol.github.io/informatics/appinstallmanjaro/</loc>
     <lastmod>2021-01-04T17:05:30+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://marcnol.github.io/informatics/sigining_kernel/</loc>
-    <lastmod>2021-01-04T17:05:30+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://marcnol.github.io/categories/</loc>
   </url>
   
   <url>
     <loc>http://marcnol.github.io/tags/</loc>
+    <lastmod>2021-01-04T17:05:30+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcnol.github.io/tags/linuxinstall/</loc>
+    <lastmod>2020-01-01T17:05:30+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcnol.github.io/informatics/linux_setup_latest/</loc>
+    <lastmod>2020-01-01T17:05:30+01:00</lastmod>
   </url>
   
 </urlset>

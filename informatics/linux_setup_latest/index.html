@@ -6,36 +6,27 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Setup a linux box - NollmannLab helpdesk</title>
 	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
-	<meta name="description" content="">
+	<meta name="description" content="Installation of a manjaro box">
 		<meta property="og:title" content="Setup a linux box" />
-<meta property="og:description" content="Linux post installation guide [[TOC]]
-Mounting external drives Google drive Run the following installation steps
-$ sudo add-apt-repository ppa:alessandro-strada/ppa $ sudo apt-get update $ sudo apt-get install google-drive-ocamlfuse Once successfully installed, authorize google-drive-ocamlfuse client with your desired Google account using the following command.
-$ google-drive-ocamlfuse This is going to pop open a page on your browser where Google will request you to choose a Gmail account to continue with the setup" />
+<meta property="og:description" content="Installation of a manjaro box" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://marcnol.github.io/informatics/linux_setup_latest/" />
-<meta property="article:published_time" content="2021-01-04T17:05:30+01:00" />
-<meta property="article:modified_time" content="2021-01-04T17:05:30+01:00" />
+<meta property="article:published_time" content="2020-01-01T17:05:30+01:00" />
+<meta property="article:modified_time" content="2020-01-01T17:05:30+01:00" />
 
 		<meta itemprop="name" content="Setup a linux box">
-<meta itemprop="description" content="Linux post installation guide [[TOC]]
-Mounting external drives Google drive Run the following installation steps
-$ sudo add-apt-repository ppa:alessandro-strada/ppa $ sudo apt-get update $ sudo apt-get install google-drive-ocamlfuse Once successfully installed, authorize google-drive-ocamlfuse client with your desired Google account using the following command.
-$ google-drive-ocamlfuse This is going to pop open a page on your browser where Google will request you to choose a Gmail account to continue with the setup">
-<meta itemprop="datePublished" content="2021-01-04T17:05:30+01:00" />
-<meta itemprop="dateModified" content="2021-01-04T17:05:30+01:00" />
-<meta itemprop="wordCount" content="911">
+<meta itemprop="description" content="Installation of a manjaro box">
+<meta itemprop="datePublished" content="2020-01-01T17:05:30+01:00" />
+<meta itemprop="dateModified" content="2020-01-01T17:05:30+01:00" />
+<meta itemprop="wordCount" content="733">
 
 
 
-<meta itemprop="keywords" content="" />
+<meta itemprop="keywords" content="LinuxInstall," />
 
 		<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Setup a linux box"/>
-<meta name="twitter:description" content="Linux post installation guide [[TOC]]
-Mounting external drives Google drive Run the following installation steps
-$ sudo add-apt-repository ppa:alessandro-strada/ppa $ sudo apt-get update $ sudo apt-get install google-drive-ocamlfuse Once successfully installed, authorize google-drive-ocamlfuse client with your desired Google account using the following command.
-$ google-drive-ocamlfuse This is going to pop open a page on your browser where Google will request you to choose a Gmail account to continue with the setup"/>
+<meta name="twitter:description" content="Installation of a manjaro box"/>
 
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link rel="dns-prefetch" href="//fonts.googleapis.com">
@@ -100,9 +91,6 @@ $ google-drive-ocamlfuse This is going to pop open a page on your browser where 
 	</ul>
 </nav>
 
-
-
-
 	</div>
 </header>
 		<div class="wrapper flex">
@@ -112,12 +100,18 @@ $ google-drive-ocamlfuse This is going to pop open a page on your browser where 
 	<article class="post">
 		<header class="post__header">
 			<h1 class="post__title">Setup a linux box</h1>
+			<p class="post__lead">Example lead - highlighted near the title</p>
 			<div class="post__meta meta"><div class="meta__item-author meta__item">
-	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2 0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class="meta__text">John Doe</span>
+	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2 0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class="meta__text">marcnol</span>
 </div>
 <div class="meta__item-datetime meta__item">
-	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2021-01-04T17:05:30&#43;01:00">2021-01-04</time></div></div>
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2020-01-01T17:05:30&#43;01:00">2020-01-01</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/informatics/" rel="category">Informatics</a>
+	</span>
+</div></div>
 		</header>
+		<figure class="post__thumbnail">
+			<img src="/img/placeholder.jpg" alt="Setup a linux box">
+		</figure>
 <div class="post__toc toc">
 	<div class="toc__title">Page content</div>
 	<div class="toc__menu">
@@ -212,34 +206,15 @@ chmod 777 /mnt/GLACIER_disk1 /mnt/tronador /mnt/grey
 <pre><code>date &gt;&gt; /home/marcnol/sysadm/last_backup.log
 rsync -avz --delete /home/marcnol /mnt/PALM_dataserv/DATA/BCKUSER &gt; /home/marcnol/sysadm/rsync_home.log
 </code></pre><h2 id="setup-of-linux-boxes">Setup of linux boxes</h2>
-<h4 id="creating-group-cbs-and-changing-userid-for-users">creating group cbs and changing userid for users</h4>
+<h4 id="creating-group-cbs-and-changing-user-id">creating group cbs and changing User ID</h4>
 <p>do</p>
 <pre><code>vi /etc/group
 cbs:x:1000:marcnol
 </code></pre><p>then for marcnol do:</p>
 <pre><code>vi /etc/passwd
-marcnol:x:2503:1000:Marcelo Nollmann:/home/marcnol:/bin/tcsh
-</code></pre><p>for other users just modify the userID from the list below.</p>
-<h4 id="adding-new-users">adding new users</h4>
-<pre><code>useradd cardozo --uid 2648 --home /home/cardozo --create-home --groups users --gid 1000
-useradd cattoni --uid 2530 --home /home/cattoni --create-home --groups users --gid 1000
-useradd fiche --uid 2520 --home /home/fiche --create-home --groups users --gid 1000
-useradd bonomi --uid 2701 --home /home/bonomi --create-home --groups users --gid 1000
-useradd guilhas --uid 2632 --home /home/guilhas --create-home --groups users --gid 1000
-useradd gurgo --uid 2707 --home /home/gurgo --create-home --groups users --gid 1000
-useradd berard --uid 2706 --home /home/berard --create-home --groups users --gid 1000
-useradd legall --uid 2539 --home /home/legall --create-home --groups users --gid 1000
-useradd rombouts --uid 2710 --home /home/rombouts --create-home --groups users --gid 1000
-useradd rata --uid 1002 --home /home/rata --create-home --groups users --gid 1000
-useradd sergio --uid 2724 --home /home/sergio --create-home --groups users --gid 1000
-useradd messina --uid 2719 --home /home/messina --create-home --groups users --gid 1000
-useradd markus --uid 2730 --home /home/markus --create-home --groups users --gid 1000
-useradd christophe --uid 2672 --home /home/christophe --create-home --groups users --gid 1000
-useradd bardou --uid 2787 --home /home/bardou --create-home --groups users --gid 1000
-useradd frandi --uid 2766 --home /home/frandi --create-home --groups users --gid 1000
-
-
-</code></pre><p>To change uid of a user:</p>
+marcnol:x:UID:1000:Marcelo Nollmann:/home/marcnol:/bin/tcsh
+</code></pre><p>and replace UID by your desired user ID.</p>
+<p>You can also change the uid of a user by doing:</p>
 <pre><code>usermode -u 1002 rata
 chown rata:users -R /home/rata
 </code></pre><h4 id="creating-sysadm-and-giving-root-privileges">Creating sysadm and giving root privileges</h4>
@@ -302,39 +277,69 @@ exit 0
 &gt;unlink /bin/csh; ln -s /bin/tcsh /bin/csh
 </code></pre>
 		</div>
+		<footer class="post__footer">
+			
+<div class="post__tags tags clearfix">
+	<svg class="tags__badge icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5 0 11V3C0 1.5.8.8.8.8S1.5 0 3 0h8c1.5 0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
+	<ul class="tags__list">
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tags/linuxinstall/" rel="tag">LinuxInstall</a>
+		</li>
+	</ul>
+</div>
+		</footer>
 	</article>
 </main>
 
 <div class="authorbox clearfix">
 	<figure class="authorbox__avatar">
-		<img alt="John Doe avatar" src="/img/avatar.png" class="avatar" height="90" width="90">
+		<img alt="marcnol avatar" src="/img/avatar.png" class="avatar" height="90" width="90">
 	</figure>
 	<div class="authorbox__header">
-		<span class="authorbox__name">About John Doe</span>
+		<span class="authorbox__name">About marcnol</span>
 	</div>
 	<div class="authorbox__description">
-		John Doe&rsquo;s true identity is unknown. Maybe he is a successful blogger or writer. Nobody knows it.
+		marcnol
 	</div>
 </div>
 
 <nav class="pager flex">
-	<div class="pager__item pager__item--prev">
-		<a class="pager__link" href="/informatics/sigining_kernel/" rel="prev">
-			<span class="pager__subtitle">«&thinsp;Previous</span>
-			<p class="pager__title">Signing a custom kernel</p>
-		</a>
-	</div>
 	<div class="pager__item pager__item--next">
-		<a class="pager__link" href="/informatics/reveal.js-presentations/" rel="next">
+		<a class="pager__link" href="/informatics/appinstallmanjaro/" rel="next">
 			<span class="pager__subtitle">Next&thinsp;»</span>
-			<p class="pager__title">Reveal.js</p>
+			<p class="pager__title">Setup manjaro box</p>
 		</a>
 	</div>
 </nav>
 
 
 			</div>
-			
+			<aside class="sidebar"><div class="widget-search widget">
+	<form class="widget-search__form" role="search" method="get" action="https://google.com/search">
+		<label>
+			<input class="widget-search__field" type="search" placeholder="SEARCH…" value="" name="q" aria-label="SEARCH…">
+		</label>
+		<input class="widget-search__submit" type="submit" value="Search">
+		<input type="hidden" name="sitesearch" value="http://marcnol.github.io/" />
+	</form>
+</div>
+<div class="widget-recent widget">
+	<h4 class="widget__title">Recent Posts</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/post/organization/">Organization</a></li>
+		</ul>
+	</div>
+</div>
+<div class="widget-taglist widget">
+	<h4 class="widget__title">Tags</h4>
+	<div class="widget__content">
+		<a class="widget-taglist__link widget__link btn" href="/tags/ips/" title="IPs">IPs</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/linuxinstall/" title="LinuxInstall">LinuxInstall</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/manjaroinstall/" title="ManjaroInstall">ManjaroInstall</a>
+	</div>
+</div>
+</aside>
 		</div>
 		<footer class="footer">
 	<div class="container footer__container flex">

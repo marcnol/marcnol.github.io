@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>IPs on NollmannLab helpdesk</title>
+    <link>http://marcnol.github.io/tags/ips/</link>
+    <description>Recent content in IPs on NollmannLab helpdesk</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 04 Jan 2021 17:05:30 +0100</lastBuildDate><atom:link href="http://marcnol.github.io/tags/ips/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IPs</title>
+      <link>http://marcnol.github.io/informatics/ips/</link>
+      <pubDate>Mon, 04 Jan 2021 17:05:30 +0100</pubDate>
+      
+      <guid>http://marcnol.github.io/informatics/ips/</guid>
+      <description>List of hosts 192.168.6.13 maupiti 192.168.6.30 grey 192.168.6.11 moorea 192.168.8.18 wikiserver 192.168.8.23 lesbos 192.168.6.25 arran 192.198.6.29 orkney 192.168.8.20 malta 192.168.6.219 tahiti 192.168.8.26 delphi 192.168.6.21 corsica 192.168.6.22 tenerife 192.168.8.21 borabora 192.168.6.26 ibiza 192.168.8.27 mayorca 192.168.8.28 minorca 192.168.8.10 krakatoa 192.168.8.30 capri 192.168.2.25 cluster 192.168.8.31 aconcagua 192.168.6.32 skye 192.168.8.38 murano 192.168.8.221 moreno 192.168.8.14 lifou 192.168.8.7 lopevi </description>
+    </item>
+    
+  </channel>
+</rss>

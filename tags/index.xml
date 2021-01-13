@@ -5,6 +5,34 @@
     <link>http://marcnol.github.io/tags/</link>
     <description>Recent content in Tags on NollmannLab helpdesk</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://marcnol.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Mon, 04 Jan 2021 17:05:30 +0100</lastBuildDate><atom:link href="http://marcnol.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IPs</title>
+      <link>http://marcnol.github.io/tags/ips/</link>
+      <pubDate>Mon, 04 Jan 2021 17:05:30 +0100</pubDate>
+      
+      <guid>http://marcnol.github.io/tags/ips/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ManjaroInstall</title>
+      <link>http://marcnol.github.io/tags/manjaroinstall/</link>
+      <pubDate>Mon, 04 Jan 2021 17:05:30 +0100</pubDate>
+      
+      <guid>http://marcnol.github.io/tags/manjaroinstall/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LinuxInstall</title>
+      <link>http://marcnol.github.io/tags/linuxinstall/</link>
+      <pubDate>Wed, 01 Jan 2020 17:05:30 +0100</pubDate>
+      
+      <guid>http://marcnol.github.io/tags/linuxinstall/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
