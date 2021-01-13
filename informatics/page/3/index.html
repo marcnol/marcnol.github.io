@@ -4,20 +4,20 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Categories - NollmannLab helpdesk</title>
+	<title>Informatics - NollmannLab helpdesk</title>
 	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
 	<meta name="description" content="">
-		<meta property="og:title" content="Categories" />
+		<meta property="og:title" content="Informatics" />
 <meta property="og:description" content="John Doe&#39;s Personal blog about everything" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="http://marcnol.github.io/categories/" />
+<meta property="og:url" content="http://marcnol.github.io/informatics/" />
+<meta property="og:updated_time" content="2021-01-04T17:05:30+01:00" />
 
-
-		<meta itemprop="name" content="Categories">
+		<meta itemprop="name" content="Informatics">
 <meta itemprop="description" content="John Doe&#39;s Personal blog about everything">
 
 		<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Categories"/>
+<meta name="twitter:title" content="Informatics"/>
 <meta name="twitter:description" content="John Doe&#39;s Personal blog about everything"/>
 
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,7 +27,7 @@
 
 	<link rel="stylesheet" href="/css/style.css">
 	<link rel="stylesheet" href="/css/custom.css">
-	<link rel="alternate" type="application/rss+xml" href="/categories/index.xml" title="NollmannLab helpdesk">
+	<link rel="alternate" type="application/rss+xml" href="/informatics/index.xml" title="NollmannLab helpdesk">
 
 	<link rel="shortcut icon" href="/favicon.ico">
 		
@@ -60,7 +60,7 @@
 				
 			</a>
 		</li>
-		<li class="menu__item">
+		<li class="menu__item menu__item--active">
 			<a class="menu__link" href="/informatics/">
 				
 				<span class="menu__text">Informatics</span>
@@ -94,10 +94,49 @@
 			
 <main class="main list" role="main">
 	<header class="main__header">
-		<h1 class="main__title">Categories</h1>
+		<h1 class="main__title">Informatics</h1>
+	</header><article class="list__item post">
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/informatics/linux_setup_latest/" rel="bookmark">
+			Setup a linux box
+			</a>
+		</h2>
+		<div class="list__meta meta"><div class="meta__item-author meta__item">
+	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2 0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class="meta__text">John Doe</span>
+</div>
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2021-01-04T17:05:30&#43;01:00">2021-01-04</time></div></div>
 	</header>
+	<div class="content list__excerpt post__content clearfix">
+		Linux post installation guide [[TOC]]
+Mounting external drives Google drive Run the following installation steps
+$ sudo add-apt-repository ppa:alessandro-strada/ppa $ sudo apt-get update $ sudo apt-get install google-drive-ocamlfuse Once successfully installed, authorize google-drive-ocamlfuse client with your desired Google account using the following command.
+$ google-drive-ocamlfuse This is going to pop open a page on your browser where Google will request you to choose a Gmail account to continue with the setup
+	</div>
+</article><article class="list__item post">
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/informatics/sigining_kernel/" rel="bookmark">
+			Signing a custom kernel
+			</a>
+		</h2>
+		<div class="list__meta meta"><div class="meta__item-author meta__item">
+	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2 0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class="meta__text">John Doe</span>
+</div>
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2021-01-04T17:05:30&#43;01:00">2021-01-04</time></div></div>
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		Signing a custom kernel for Secure Boot Instructions are for ubuntu, but should work similar for other distros, if they are using shim and grub as bootloader. If your distro is not using shim (e.g. Linux Foundation Preloader), there should be similar steps to complete the signing (e.g. HashTool instead of MokUtil for LF Preloader) or you can install shim to use instead. The ubuntu package for shim is called shim-signed, but please inform yourself on how to install it correctly, so you do not mess up your bootloader.
+	</div>
+</article>
 </main>
 
+<div class="pagination">
+	<a class="pagination__item pagination__item--prev btn" href="/informatics/page/2/">«</a>
+	<span class="pagination__item pagination__item--current">3/3</span>
+</div>
 
 			</div>
 			
