@@ -8,6 +8,22 @@
     <language>en-us</language>
     <lastBuildDate>Wed, 01 Jan 2020 17:05:30 +0100</lastBuildDate><atom:link href="http://marcnol.github.io/categories/organization/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Alarm procedure @CBS60</title>
+      <link>http://marcnol.github.io/organization/alarm/</link>
+      <pubDate>Wed, 01 Jan 2020 17:05:30 +0100</pubDate>
+      
+      <guid>http://marcnol.github.io/organization/alarm/</guid>
+      <description>Alarm Indoor alarm activation : 6:30am-21pm
+A beep sounds 15min before the alarm is triggered.
+Deactivate alarm that is going to be activated
+  At 20h45 it starts beeping
+  Type the code once (ask code to manager), then wait, alarm says it is armed
+  Then type it once more, the alarm should say it is disarmed
+  Repeat the procedure for another zone
+  When you leave, just type the code once to activate it.</description>
+    </item>
+    
+    <item>
       <title>Conferences</title>
       <link>http://marcnol.github.io/organization/conferences/</link>
       <pubDate>Wed, 01 Jan 2020 17:05:30 +0100</pubDate>
@@ -24,6 +40,19 @@ Deadlines: Registration - 7 Apr 2021 Abstract - 10 Mar 2021
 Link
   Chromatin and Epigenetics
 Deadlines: 17 - 20 May 2021 Registration - 19 Apr 2021</description>
+    </item>
+    
+    <item>
+      <title>Deliveries</title>
+      <link>http://marcnol.github.io/organization/deliveries/</link>
+      <pubDate>Wed, 01 Jan 2020 17:05:30 +0100</pubDate>
+      
+      <guid>http://marcnol.github.io/organization/deliveries/</guid>
+      <description>Deliveries Parcels are dropped off by the deliveryman at the reception desk.
+- The recipient of the package or the person in charge of the order should be notified by the reception service.
+→ scan the delivery note and send it to &amp;ldquo;commande@cbs.cnrs.fr&amp;rdquo;.
+(address in memory on the corridor&amp;rsquo;s printer-scanner)
+→ Deposit the Bon de Livraison in the tray provided for this purpose near the printer.</description>
     </item>
     
   </channel>

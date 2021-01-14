@@ -108,12 +108,22 @@
   </url>
   
   <url>
+    <loc>http://marcnol.github.io/organization/alarm/</loc>
+    <lastmod>2020-01-01T17:05:30+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://marcnol.github.io/tags/conferences/</loc>
     <lastmod>2020-01-01T17:05:30+01:00</lastmod>
   </url>
   
   <url>
     <loc>http://marcnol.github.io/organization/conferences/</loc>
+    <lastmod>2020-01-01T17:05:30+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcnol.github.io/organization/deliveries/</loc>
     <lastmod>2020-01-01T17:05:30+01:00</lastmod>
   </url>
   
@@ -130,6 +140,26 @@
   <url>
     <loc>http://marcnol.github.io/informatics/linux_setup_latest/</loc>
     <lastmod>2020-01-01T17:05:30+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcnol.github.io/organization/booking_room/</loc>
+  </url>
+  
+  <url>
+    <loc>http://marcnol.github.io/organization/contacts/</loc>
+  </url>
+  
+  <url>
+    <loc>http://marcnol.github.io/organization/orders/</loc>
+  </url>
+  
+  <url>
+    <loc>http://marcnol.github.io/organization/poster_printing/</loc>
+  </url>
+  
+  <url>
+    <loc>http://marcnol.github.io/organization/scientific_pictures/</loc>
   </url>
   
 </urlset>
