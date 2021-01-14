@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Conferences on NollmannLab helpdesk</title>
+    <link>http://marcnol.github.io/tags/conferences/</link>
+    <description>Recent content in Conferences on NollmannLab helpdesk</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Jan 2020 17:05:30 +0100</lastBuildDate><atom:link href="http://marcnol.github.io/tags/conferences/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Conferences</title>
+      <link>http://marcnol.github.io/organization/conferences/</link>
+      <pubDate>Wed, 01 Jan 2020 17:05:30 +0100</pubDate>
+      
+      <guid>http://marcnol.github.io/organization/conferences/</guid>
+      <description>Conferences This website describes the current and upcoming conferences in the field
+Bacteria Eukaryotes   Probabilistic Modeling In Genomics
+April 14 - 16, 2021 Virtual
+Abstract Deadline: January 22, 2021
+Link
+  The Identity and Evolution of Cell Types
+5 - 8 May 2021
+Deadlines: Registration - 7 Apr 2021 Abstract - 10 Mar 2021
+Link
+  Chromatin and Epigenetics
+Deadlines: 17 - 20 May 2021 Registration - 19 Apr 2021</description>
+    </item>
+    
+  </channel>
+</rss>
